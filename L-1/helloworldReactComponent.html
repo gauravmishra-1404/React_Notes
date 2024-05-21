@@ -16,6 +16,9 @@
     //babel used to tranpiler the JSX into JS because JS don't understand the JSX
     <script type="text/babel"> //using "type" babel understand which script it has to transpiled
        const rootElem = document.getElementById("root")
+
+        //App is the Component, always naming starts with capital letter
+        //arguments of components can we written like either by there names or if there are numbers of then simple prop which is the kind of object.
        function App({ text }){
         return (
             <h1>{text}</h1> //JSX 
