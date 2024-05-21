@@ -13,11 +13,12 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <div id="root"></div>
 
-    <script type="text/babel">
+    //babel used to tranpiler the JSX into JS because JS don't understand the JSX
+    <script type="text/babel"> //using "type" babel understand which script it has to transpiled
        const rootElem = document.getElementById("root")
        function App({ text }){
         return (
-            <h1>{text}</h1>
+            <h1>{text}</h1> //JSX 
         )
        }
 
